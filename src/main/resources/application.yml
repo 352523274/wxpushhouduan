@@ -1,0 +1,37 @@
+#去申请 https://mp.weixin.qq.com/debug/cgi-bin/sandbox?t=sandbox/login
+wx:
+  config:
+    appId: "wx3c3ec1413e191f6b"
+    appSecret: "4365904f8dcbca755698a362a860b888"
+    #模板Id
+#    templateId: "3FEblOzntagFkYk-DIj5u0JsoVb44urovfW57qXt4Fc"
+    templateId: "ikgByH_-exy4VLZ3FdYA2Wwoql4LSpZV-FByy16MzeY"
+    openid: "o35Ks6cWlLiI3OralvwB1MWBOg8g"
+##,o35Ks6Sr-y_FXkwSiNMII7E1d9oc
+message:
+  config:
+    birthday: "09-15" #生日日期
+    togetherDate: "2016-05-07" #填你们在一起的那天日期
+    message: "Have a happy day and love you"
+    city: "余杭"
+
+#去申请 https://tianqiapi.com/user/login
+weather:
+  config:
+    appid: "41922678"
+    appSecret: "l797PSu8"
+
+server:
+  port: 8081
+spring:
+  application:
+    name: myTest
+
+  datasource:
+    driver-class-name: org.sqlite.JDBC
+    #    url: jdbc:sqlite::resource:template/db.db
+    #    url: jdbc:sqlite:D:\Desktop\wx_push_project\wx-push\src\main\resources\template\db.db
+    url: jdbc:sqlite:D:\Desktop\db.db
+    username: 0
+    password: 0
+

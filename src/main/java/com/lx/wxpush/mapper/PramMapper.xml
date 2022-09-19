@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.lx.wxpush.dao.PramMapper">
+  <resultMap id="BaseResultMap" type="com.lx.wxpush.bean.Pram">
+    <!--@mbg.generated-->
+    <!--@Table pram-->
+    <result column="id" jdbcType="INTEGER" property="id" />
+    <result column="softMsg" jdbcType="VARCHAR" property="softmsg" />
+    <result column="cityId" jdbcType="INTEGER" property="cityid" />
+    <result column="cityName" jdbcType="VARCHAR" property="cityname" />
+  </resultMap>
+  <sql id="Base_Column_List">
+    <!--@mbg.generated-->
+    id, softMsg, cityId, cityName
+  </sql>
+</mapper>
